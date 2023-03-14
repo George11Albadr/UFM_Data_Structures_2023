@@ -50,3 +50,6 @@ ll.delete('D')
 print(ll)
 ll.delete('C')
 print(ll)
+
+ll.search("A")
+ll.search("X")

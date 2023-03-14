@@ -184,3 +184,11 @@ class LinkedList:
             previous_node = current_node
 
         print('Reference node {} not found in linked list...'.format(reference_node))
+        
+    def search(self, data):
+        current_node = self.start
+        while current_node is not None:
+            if current_node.data == data:
+                return print(data)
+            current_node = current_node.next
+        return print("The element is not in the linked list")

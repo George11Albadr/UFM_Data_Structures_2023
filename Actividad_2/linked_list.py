@@ -1,17 +1,4 @@
 
-class Song:
-
-    def __init__(self, ID: str, name: str, artist: str, album: str):
-        self.ID = ID
-        self.name = name
-        self.artist = artist
-        self.album = album
-        data = self.ID, self.name, self.artist, self.album
-
-    def __repr__(self) -> str:
-    
-        return '| %s | %s | %s | %s' % (self.name,self.artist,self.album,self.ID)
-    
 class Node:
     
     def __init__(self, data: str):

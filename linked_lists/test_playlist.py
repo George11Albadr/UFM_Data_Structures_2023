@@ -55,4 +55,4 @@ print("Number of songs in playlist")
 print(songs_count)
 
 random_song = ll.play_shuffle()
-print(random_song.name)
+print('Playing Shuffle:',random_song.name)
